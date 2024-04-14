@@ -71,7 +71,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "feature-flag-demo:build"
+            "buildTarget": "feature-flag-demo:build",
+            "disableHostCheck": true
           },
           "configurations": {
             "production": {
